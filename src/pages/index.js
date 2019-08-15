@@ -34,7 +34,6 @@ class BlogIndex extends React.Component {
                 </h3>
                 <small>{node.frontmatter.date}</small>
               </header>
-              <div>TOC: {node.tableOfContents}</div>
               <section>
                 <p
                   dangerouslySetInnerHTML={{

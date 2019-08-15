@@ -1,7 +1,7 @@
 ---
 title: Test new post
 date: "2019-08-15T12:07:10.275Z"
-description: This is a custom description for SEO and Open Graph purposes, rather than the default generated excerpt. Simply add a description field to the frontmatter.
+description: Simply, test this one.
 ---
 
 - [ch 11 - macros](#ch-11---macros)
