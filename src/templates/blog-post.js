@@ -14,7 +14,6 @@ class BlogPostTemplate extends React.Component {
     const post = this.props.data.markdownRemark
     const siteTitle = this.props.data.site.siteMetadata.title
     const { previous, next } = this.props.pageContext
-    console.log("post is : ", post)
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
