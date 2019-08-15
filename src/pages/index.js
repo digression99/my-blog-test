@@ -17,6 +17,8 @@ class BlogIndex extends React.Component {
         <SEO title="All posts" />
         <Bio />
         {posts.map(({ node }) => {
+          console.log("node is :")
+          console.log(JSON.stringify(node, null, 2))
           const title = node.frontmatter.title || node.fields.slug
           return (
             <article key={node.fields.slug}>
@@ -32,6 +34,7 @@ class BlogIndex extends React.Component {
                 </h3>
                 <small>{node.frontmatter.date}</small>
               </header>
+              <div>TOC: {node.tableOfContents}</div>
               <section>
                 <p
                   dangerouslySetInnerHTML={{
@@ -59,6 +62,7 @@ export const pageQuery = graphql`
     allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
       edges {
         node {
+          tableOfContents(heading: "Test heading", maxDepth: 2)
           excerpt
           fields {
             slug

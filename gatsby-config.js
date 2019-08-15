@@ -26,6 +26,12 @@ module.exports = {
     {
       resolve: `gatsby-transformer-remark`,
       options: {
+        tableOfContents: {
+          pathToSlugField: "frontmatter.path",
+          heading: "This is test headingj",
+          maxDepth: 6,
+        },
+
         plugins: [
           {
             resolve: "gatsby-remark-embed-video",

@@ -1,3 +1,22 @@
+---
+title: Test new post
+date: "2019-08-15T12:07:10.275Z"
+description: This is a custom description for SEO and Open Graph purposes, rather than the default generated excerpt. Simply add a description field to the frontmatter.
+---
+
+- [ch 11 - macros](#ch-11---macros)
+  - [intro](#intro)
+  - [[tip 65] record and execute a macro](#-tip-65--record-and-execute-a-macro)
+  - [[tip 66] normalize, strike, abort](#-tip-66--normalize--strike--abort)
+    - [rules](#rules)
+    - [abort when a motion fails](#abort-when-a-motion-fails)
+  - [[tip 67] play back with a count](#-tip-67--play-back-with-a-count)
+  - [[tip 68] repeat a change on contiguous lines](#-tip-68--repeat-a-change-on-contiguous-lines)
+  - [execute macro in parallel](#execute-macro-in-parallel)
+  - [[tip 69] append commands to a macro](#-tip-69--append-commands-to-a-macro)
+  - [[tip 70] act upon a collection of files](#-tip-70--act-upon-a-collection-of-files)
+    - [running in series](#running-in-series)
+
 # ch 11 - macros
 
 ![Test image](./IMG_5113.jpg)
