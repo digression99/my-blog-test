@@ -51,7 +51,6 @@ class BlogPostTemplate extends React.Component {
             <Bio />
           </footer>
         </article>
-        <ReactUtterances repo={repo} type={"url"} />
 
         <nav>
           <ul
@@ -79,6 +78,8 @@ class BlogPostTemplate extends React.Component {
             </li>
           </ul>
         </nav>
+
+        <ReactUtterances repo={repo} type={"url"} />
       </Layout>
     )
   }
