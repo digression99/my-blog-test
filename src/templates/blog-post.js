@@ -1,10 +1,13 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
+import ReactUtterances from "react-utterances"
 
 import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { rhythm, scale } from "../utils/typography"
+
+const repo = "digression99/blog-comments"
 
 class BlogPostTemplate extends React.Component {
   render() {
@@ -48,6 +51,7 @@ class BlogPostTemplate extends React.Component {
             <Bio />
           </footer>
         </article>
+        <ReactUtterances repo={repo} type={"url"} />
 
         <nav>
           <ul
